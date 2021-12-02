@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloform.css">
+    <title>Cadastro</title>
+
+</head>
+
+
+<body class="fundo">
+    
+    
+    <form class="cadastro" method="post">
+        <div>
+            <h1>Cadastre-se!</h1>
+            <p>Preencha seus dados:</p>
+        </div>
+        
+            <div class="dados">
+              Nome:  <input type="text" nome = "nome" maxlength="100" id= "nome">
+            </div>
+
+            <div class="dados">
+           E-mail:  <input type="email" nome="email" id = "email"> 
+        </div>
+
+        <div class="dados">
+         Telefone:   <input type="tel" nome= "telefone" id= "telefone"
+        </div>
+
+        <div class="dados">
+            Data de Nascimento: <input type="date" value="nascimento"
+        </div>
+
+        <div class="dados">            
+          Faixa Etária:  <input type="radio"  name="faixaet"  value="menor"/>-18
+            <input type="radio" name="faixaet" value="maior"/>+18
+        </div>
+
+        <div class="dados">
+            
+  Interesses: <select id= "interesses">
+    <option selected disabled value="">Selecione</option>
+    <option>Praias</option>
+    <option>Centro Histórico</option>
+    <option>Carnaval</option>
+    <option>Culinária</option>
+    <option>Estudo</option>
+</select>
+            
+        </div>
+
+        <div class="dados">            
+           Status:<input type="checkbox" nome= "estudante" value="estudo">Estudante
+            
+                <input type="checkbox" nome= "residente" value="morar">Residente
+            
+                <input type="checkbox" nome= "turista" value="turismo">Turista
+            <br> <br>
+        </div>
+       
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar Dados">
+            
+        </div>
+        
+    </form>
+</body>
+</html>

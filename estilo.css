@@ -50,6 +50,20 @@ ul{
     text-align: center;
     padding: 20px;
 }
+.cadastrof{
+   margin-left: 500px;
+}
+input[type=button]{
+    margin-top: 7px;
+    margin-left: 700px;
+    background: #fd5757;
+    border-radius: 6px;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
 .logos{
 margin: 20px;
 width: 70px;
