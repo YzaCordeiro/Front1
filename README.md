@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -38,6 +37,10 @@ inestimável valor histórico, e mantém o seu traçado urbano colonial.
         <li>"O homem da meia noite não é um boneco"</li>
     </ul>
     </main>
+    <footer id="cadastrof">
+        <a href="formulario.html"><input type="button" value= "Cadastre-se"
+    </footer>
+    
     <footer id= "links">
 
         <a href="https://www.instagram.com/pref_olinda/?hl=pt" target="_blank">
@@ -46,6 +49,7 @@ inestimável valor histórico, e mantém o seu traçado urbano colonial.
         <a href="https://www.facebook.com/prefeituradeolinda/" target="_blank">
             <img src="img/facebook.png" class="logos"
         </a>
+        
     </footer>
 </body>
 </html>
